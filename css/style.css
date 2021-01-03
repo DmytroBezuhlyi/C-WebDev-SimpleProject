@@ -5,6 +5,10 @@
     line-height: 1;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     position: relative;
     max-width: 1140px;
@@ -22,7 +26,6 @@
 }
 .logo .logo_text {
     color: #FFFFFF;
-    font-family: Roboto;
     font-weight: 500;
     font-size: 15px;
     text-transform: uppercase;
@@ -33,10 +36,8 @@ h1 {
     margin-top: 53px;
 }
 .title {
-    font-family: Roboto, sans-serif;
     font-size: 41px;
     font-weight: 900;
-    letter-spacing: normal;
     text-align: center;
     color: #f9bf3b;
     text-transform: uppercase;
@@ -46,7 +47,6 @@ h2.title {
 }
 .simple .title_big {
     display: block;
-    font-family: "Roboto Black", sans-serif;
     font-size: 80px;
     font-weight: 900;
     text-align: center;
@@ -58,14 +58,12 @@ h2.title {
 .promo .promo_text {
     padding: 0 13px;
     margin-top: 23px;
-    font-family: Roboto, sans-serif;
     font-size: 21px;
     font-weight: 300;
     text-align: center;
     color: #ffffff;
 }
 .promo .promo_text span {
-    font-family: "Roboto Bold", sans-serif;
     color: #f9bf3b;
     font-weight: 700;
 }
@@ -98,7 +96,6 @@ h2.title {
     margin-top: 73px;
 }
 .more .more_text {
-    font-family: Roboto, sans-serif;
     font-size: 15px;
     font-weight: 400;
     text-align: center;
@@ -118,7 +115,6 @@ h2.title {
 .waiting .waiting_header,
 .finish .finish_header,
 .webinar .webinar_header {
-    font-family: Roboto, sans-serif;
     font-size: 30px;
     font-weight: 400;
     text-align: center;
@@ -144,7 +140,6 @@ h2.title {
     margin: 18px auto 0;
 }
 .waiting .waiting_subheader {
-    font-family: Roboto, sans-serif;
     font-size: 23px;
     font-weight: 400;
     text-align: center;
@@ -164,9 +159,8 @@ h2.title {
 .waiting .waiting_wrapper .waiting_item .waiting_img {
     width: 100%;
 }
-.waiting .waiting_wrapper .waiting_item .waiting_descr {
+.waiting .waiting_wrapper .waiting_item .waiting_description {
     margin-top: 32px;
-    font-family: Roboto, sans-serif;
     font-size: 15px;
     font-weight: 300;
     line-height: 1.4;
@@ -179,7 +173,6 @@ h2.title {
 }
 .optimization .optimization_header {
     margin-left: 391px;
-    font-family: Roboto, sans-serif;
     font-size: 30px;
     font-weight: 900;
     text-align: left;
@@ -189,14 +182,12 @@ h2.title {
 .optimization .optimization_text {
     margin-top: 25px;
     margin-left: 391px;
-    font-family: Roboto, sans-serif;
     font-size: 17px;
     font-weight: 300;
     text-align: justify;
     color: #4a4a4a;
 }
 .optimization .optimization_text span {
-    font-family: Roboto, sans-serif;
     font-size: 17px;
     font-weight: 600;
     text-align: justify;
@@ -232,7 +223,7 @@ h2.title {
     background-color: #b4e2ff;
     border-radius: 100%;
 }
-.finish .finish_wrapper .finish_item .finish_descr {
+.finish .finish_wrapper .finish_item .finish_description {
     margin-top: 26px;
     font-weight: 300;
     text-align: center;
@@ -250,7 +241,6 @@ h2.title {
 }
 .gift .gift_text {
     margin-top: 42px;
-    font-family: Roboto, sans-serif;
     font-size: 30px;
     font-weight: normal;
     text-align: center;
@@ -266,7 +256,6 @@ h2.title {
     margin: 0 auto;
 }
 .webinar .webinar_alert {
-    font-family: Roboto, sans-serif;
     font-size: 23px;
     font-weight: normal;
     text-align: center;
@@ -288,7 +277,6 @@ h2.title {
 }
 .info .footer_tel,
 .info .footer_wrapper a {
-    font-family: Roboto, sans-serif;
     font-size: 15px;
     font-weight: 300;
     text-align: center;
